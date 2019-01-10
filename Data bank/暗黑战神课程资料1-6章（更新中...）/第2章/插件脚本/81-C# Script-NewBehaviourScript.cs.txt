@@ -1,12 +1,13 @@
 ﻿/****************************************************
     文件：#SCRIPTNAME#.cs
-	作者：Plane
-    邮箱: 1785275942@qq.com
+	作者：Jerry
+    邮箱: riverlihuo@163.com
     日期：#CreateTime#
 	功能：Nothing
 *****************************************************/
 
 using UnityEngine;
+using UnityEditor;
 
 public class #SCRIPTNAME# : MonoBehaviour 
 {
