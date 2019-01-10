@@ -10,9 +10,15 @@ using UnityEngine;
 using UnityEditor;
 
 public class GameRoot : MonoBehaviour 
-{
+{ 
+    public static GameRoot instance = null;
+    public LoadingWnd loadingWnd;
+
+
+
     private void Start()
     {
+        instance = this;
         DontDestroyOnLoad(this);
         Init();
         Debug.Log("Game Start...");

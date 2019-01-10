@@ -11,6 +11,7 @@ public class LoginSvc : MonoBehaviour
 
     public void EnterLogin()
     {
+        GameRoot.instance.loadingWnd.gameObject.SetActive(true);
         //TODO
         //异步加载场景
         ResService.Instance.AsyncLoadScene(Constants.SceneLogin);
